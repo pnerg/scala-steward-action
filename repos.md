@@ -1,1 +1,2 @@
+- pnerg/consul-recipes
 - pnerg/jmx-runtime-json
