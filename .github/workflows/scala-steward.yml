@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: scala-steward
+
+# This workflow will launch at 00:00 every Sunday
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  scala-steward:
+    runs-on: ubuntu-latest
+    name: Launch Scala Steward
+    steps:
+      - name: Launch Scala Steward
+        uses: scala-steward-org/scala-steward-action@v2
+        with:
+          github-token: ${{ secrets.SCALA_STEWARD_TOKEN }}
+          repos-file: 'REPOS.md'
