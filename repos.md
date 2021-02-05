@@ -1,2 +1,3 @@
 - pnerg/consul-recipes
+- pnerg/java-scala-util
 - pnerg/jmx-runtime-json
