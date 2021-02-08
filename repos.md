@@ -1,3 +1,4 @@
 - pnerg/consul-recipes
 - pnerg/java-scala-util
+- pnerg/java-scala-util-converter
 - pnerg/jmx-runtime-json
