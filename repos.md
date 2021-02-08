@@ -1,3 +1,4 @@
+- pnerg/area51-kamon
 - pnerg/consul-recipes
 - pnerg/java-scala-util
 - pnerg/java-scala-util-converter
