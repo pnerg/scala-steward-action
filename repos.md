@@ -3,4 +3,5 @@
 - pnerg/java-scala-util
 - pnerg/java-scala-util-converter
 - pnerg/jmx-runtime-json
+- pnerg/prometheus-client-scala
 - pnerg/sbt-credentials-settings-plugin
