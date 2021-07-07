@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Launch Scala Steward
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
