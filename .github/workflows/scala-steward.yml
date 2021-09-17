@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@v2.13.3
+        uses: scala-steward-org/scala-steward-action@v2.13.4
         with:
           github-token: ${{ secrets.SCALA_STEWARD_TOKEN }}
           repos-file: 'repos.md'
